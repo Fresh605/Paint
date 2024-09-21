@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh Coat Painting</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fresh Coat Painting</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Your Trusted Residential Painting & Handyman Services</h2>
+        <p>Transforming your space with quality and care.</p>
+        <a href="#contact" class="cta-button">Get a Free Estimate</a>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Interior & Exterior Painting</li>
+            <li>Residential Handyman Services</li>
+            <li>Drywall Repair</li>
+            <li>Power Washing</li>
+            <li>Deck Staining & Sealing</li>
+        </ul>
+    </section>
+
+    <section id="gallery">
+        <h2>Our Work</h2>
+        <div class="gallery-grid">
+            <img src="image1.jpg" alt="Painting Project 1">
+            <img src="image2.jpg" alt="Painting Project 2">
+            <img src="image3.jpg" alt="Painting Project 3">
+            <img src="image4.jpg" alt="Painting Project 4">
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <h2>What Our Clients Say</h2>
+        <blockquote>
+            "Fresh Coat Painting did an amazing job! Highly recommend their services."
+            <footer>- Sarah J.</footer>
+        </blockquote>
+        <blockquote>
+            "Professional and reliable! My home looks stunning."
+            <footer>- Mark T.</footer>
+        </blockquote>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send Message</butt
